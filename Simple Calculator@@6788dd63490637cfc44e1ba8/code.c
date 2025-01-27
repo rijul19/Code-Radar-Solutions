@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int a,b;
     char c;
@@ -18,15 +14,13 @@ int main() {
         break;
         case'*':
         printf("%d",a*b);
-        break;
-        
+        break;       
         case'/':
         if(b!=0)
         printf("%d",a/b);
         else
         printf("error");
         break;
-
         default:
         printf("error");
         }
