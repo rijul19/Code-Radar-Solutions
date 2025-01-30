@@ -4,8 +4,8 @@ int main() {
     int rijul;
     scanf("%d",&rijul);
     if (rijul & 1)
-    printf("Set:");
+    printf("Set");
     else
-    printf("Not Set:");
+    printf("Not Set");
     return 0;
 }
