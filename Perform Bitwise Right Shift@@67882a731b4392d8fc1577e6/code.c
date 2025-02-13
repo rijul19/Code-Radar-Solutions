@@ -1,4 +1,4 @@
-[11:31 am, 13/02/2025] Priyanshu Chitkara: #include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int num1 , num2;
