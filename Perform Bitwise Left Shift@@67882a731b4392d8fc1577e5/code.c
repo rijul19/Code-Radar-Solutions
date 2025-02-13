@@ -1,13 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int number,n;
-    scanf("%d %d",&number,&n);
-    if(number&(1<<n)){
-        printf("1");
-    }
-    else{
-        printf("0");
-    }
+    int num1 , num2;
+    scanf("%d%d",&num1 ,&num2);
+    printf("%d",num1<<num2);
     return 0;
 }
