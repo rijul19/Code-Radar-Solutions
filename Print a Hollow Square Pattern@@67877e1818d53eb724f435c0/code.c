@@ -1,11 +1,11 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a,i,j;
-    scanf("%d",&a);
-    for(i=1;i<=a;i++){
+    int N,i,j;
+    scanf("%d",&N);
+    for(i=1;i<=N;i++){
         for(j=1;j<=i;j++){
-            if (i==1 || i==a || j==1 || j==a)
+            if (i==1 || i==N || j==1 || j==N)
             printf("*");
             else
             printf(" ");
