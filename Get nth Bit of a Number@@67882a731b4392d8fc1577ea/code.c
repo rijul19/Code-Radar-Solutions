@@ -9,7 +9,7 @@ int main() {
     int n = 3;       
     
     int bit = getNthBit(number, n);
-    printf("The %dth bit of %d is: %d\n", n, number, bit);
+    printf("%d\n", n, number, bit);
     
     return 0;
 }
